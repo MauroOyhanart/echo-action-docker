@@ -17,7 +17,7 @@ The time of the echo.
 
 ## Example usage
 
-uses: maurooyhanart/echo-action-docker@v1
+uses: maurooyhanart/echo-action-docker@v3
 with:
   message: 'This was done with a tutorial'
 
