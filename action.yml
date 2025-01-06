@@ -1,0 +1,16 @@
+# action.yml
+name: 'Hello World'
+description: 'Echo a message and record the time'
+inputs:
+  message:  # id of input
+    description: 'The message to echo'
+    required: true
+    default: ''
+outputs:
+  time: # id of output
+    description: 'The time of the echo'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.message }}
