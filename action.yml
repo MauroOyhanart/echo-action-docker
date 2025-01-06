@@ -1,5 +1,5 @@
 # action.yml
-name: 'Hello World'
+name: echo-action-docker
 description: 'Echo a message and record the time'
 inputs:
   message:  # id of input
