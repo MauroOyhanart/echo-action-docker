@@ -1,5 +1,3 @@
-/usr/bin/bash
-
 set -e
 
 echo "The message is: ${1}"
