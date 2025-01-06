@@ -1,3 +1,4 @@
+#!/bin/sh
 set -e
 
 echo "The message is: ${1}"
